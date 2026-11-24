@@ -39,13 +39,13 @@ contactForm.addEventListener('submit', event => {
   if (!contactForm.reportValidity()) return;
   const data = new FormData(contactForm);
   preparedMessage = `From: ${data.get('name')}\nEmail: ${data.get('email')}\n\n${data.get('message')}`;
-  formStatus.textContent = 'Your message is ready. Copy it, then send it to me through GitHub.';
+  formStatus.textContent = 'Your message is ready. Copy it, then email it to me.';
   copyButton.hidden = false;
 });
 copyButton.addEventListener('click', async () => {
   try {
     await navigator.clipboard.writeText(preparedMessage);
-    formStatus.textContent = 'Message copied. You can now paste it into a GitHub message.';
+    formStatus.textContent = 'Message copied. You can now paste it into an email to me.';
   } catch {
     formStatus.textContent = 'Clipboard access is unavailable here. Select and copy your details from the form.';
   }

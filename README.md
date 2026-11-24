@@ -18,7 +18,7 @@ Open `index.html` in a browser. The page has no build step or package dependenci
 
 ## Contact form
 
-The form validates the visitor's name, email, and message, then prepares a copyable message in the browser. Connect a mail service before deploying if you want submissions delivered automatically.
+The form validates the visitor's name, email, and message, then prepares a copyable message in the browser. Visitors can email Divyashree directly using the Gmail link. Connect a mail service before deploying if you want form submissions delivered automatically.
 
 ## Project notes
 
