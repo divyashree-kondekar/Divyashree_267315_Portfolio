@@ -22,4 +22,4 @@ The form validates the visitor's name, email, and message, then prepares a copya
 
 ## Project notes
 
-EduVerify, CogniStream, and FlixFinder link to their public repositories. Pravaah and QSlotify are shown as portfolio projects without repository links because their public project details are not available in the supplied GitHub profile.
+EduVerify, CogniStream, and FlixFinder link to their public repositories. Pravaah and QSlotify are included using the project details supplied by Divyashree; they do not yet have public repository links.
